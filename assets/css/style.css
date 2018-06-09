@@ -1,0 +1,111 @@
+h1 {
+    color: green;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("../../assets/images/background.png");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.about {
+    background: rgb(36, 204, 176);
+    width: 60%;
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px 50px;
+}
+
+.pstyle {
+    align-items: center;
+}
+
+.random-number {
+    background: rgb(223, 108, 41);
+    width: 60%;
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px 50px;
+}
+
+.scoreboard {
+    background: rgb(223, 41, 178);
+    width: 60%;
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px 50px;
+}
+
+.current-score {
+    background: rgb(41, 223, 50);
+    width: 60%;
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px 50px;
+}
+
+.crystals {
+    background: rgb(223, 165, 41);
+    width: 60%;
+    direction: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    height: 400px;
+}
+
+.crystal-a {
+    background: blue;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.crystal-b {
+    background: red;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.crystal-c {
+    background: white;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.crystal-d {
+    background: yellow;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.centerRow {
+    justify-content: center;
+}
