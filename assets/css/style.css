@@ -18,6 +18,12 @@ body {
     
 }
 
+img {
+    max-width:100%;
+    max-height:100%;
+    padding: 5px;
+}
+
 .about {
     background: rgb(36, 204, 176);
     width: 60%;
@@ -78,29 +84,26 @@ body {
     height: 400px;
 }
 
-.crystal-a {
-    background: blue;
+.crystal-pink {
     width: 150px;
     height: 150px;
     margin: 5px;
 }
 
-.crystal-b {
-    background: red;
+.crystal-white {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.crystal-purple {
     width: 150px;
     height: 150px;
     margin: 5px;
 }
 
-.crystal-c {
-    background: white;
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-}
-
-.crystal-d {
-    background: yellow;
+.crystal-yellow {
     width: 150px;
     height: 150px;
     margin: 5px;
